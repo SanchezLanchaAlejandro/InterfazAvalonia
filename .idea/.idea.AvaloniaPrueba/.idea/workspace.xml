@@ -7,22 +7,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aed55d9-09b1-4ce9-ab99-b28338877467" name="Changes" comment="">
+    <list default="true" id="9aed55d9-09b1-4ce9-ab99-b28338877467" name="Changes" comment="Primera Versión Estable">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaPrueba/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaPrueba/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/Assets/fondo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/ViewModels/MainWindowViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/Views/MainWindowView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/Views/MainWindowView.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/bin/Debug/net9.0/AvaloniaPrueba.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/bin/Debug/net9.0/AvaloniaPrueba.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/bin/Debug/net9.0/AvaloniaPrueba.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/bin/Debug/net9.0/AvaloniaPrueba.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/bin/Debug/net9.0/trabajadores.json" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/bin/Debug/net9.0/trabajadores.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/Avalonia/AvaloniaPrueba.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/Avalonia/AvaloniaPrueba.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/Avalonia/AvaloniaPrueba.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/Avalonia/AvaloniaPrueba.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/Avalonia/resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/ref/AvaloniaPrueba.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/ref/AvaloniaPrueba.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/refint/Avalonia/AvaloniaPrueba.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/refint/Avalonia/AvaloniaPrueba.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/refint/AvaloniaPrueba.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/refint/AvaloniaPrueba.dll" afterDir="false" />
@@ -51,8 +50,10 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/alejandrosanchezlancha/RiderProjects/Avalonia/AvaloniaPrueba/AvaloniaPrueba/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file:///var/folders/c1/4t7b3_1s7pn9n20_y56tcnv40000gn/T/SourceGeneratedDocuments/C62762B26644A8189482EA75/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/AvaloniaPrueba.ViewModels.MainWindowViewModel.g.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -125,15 +126,27 @@
       <workItem from="1741255153882" duration="278000" />
       <workItem from="1741257949993" duration="2005000" />
       <workItem from="1741287724784" duration="1127000" />
-      <workItem from="1741288857612" duration="1150000" />
+      <workItem from="1741288857612" duration="2095000" />
     </task>
+    <task id="LOCAL-00001" summary="Primera Versión Estable">
+      <option name="closed" value="true" />
+      <created>1741290265960</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741290265960</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Primera Versión Estable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primera Versión Estable" />
   </component>
 </project>

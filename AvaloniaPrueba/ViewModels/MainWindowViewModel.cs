@@ -2,6 +2,8 @@ using System;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Text.Json;
+using Avalonia;
+using Avalonia.Controls.ApplicationLifetimes;
 using AvaloniaPrueba.Models;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
@@ -19,6 +21,9 @@ public partial class MainWindowViewModel : ViewModelBase
     // Propiedad para enlazar los datos del formulario
     [ObservableProperty]
     private Persona _nuevoTrabajador = new Persona();
+    
+    [ObservableProperty]
+    private Persona? _trabajadorSeleccionado;
 
     [RelayCommand]
     private void HacerZoom(double factor)
@@ -26,11 +31,22 @@ public partial class MainWindowViewModel : ViewModelBase
         Zoom = factor;
         Console.WriteLine("Zoom Realizado");
     }
-
+    
     [RelayCommand]
-    private void CrearPersona()
+    private void Salir()
     {
-        Console.WriteLine("He creado una Persona");
+        if (Application.Current?.ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
+        {
+            desktop.Shutdown();
+        }
+    }
+    
+    [RelayCommand]
+    private void Nuevo()
+    {
+        Trabajadores.Clear();  // 🔥 Vacía la lista de trabajadores
+        GuardarPersona();  // 💾 Guarda el JSON vacío para persistencia
+        Console.WriteLine("Lista de trabajadores limpiada.");
     }
 
     [RelayCommand]
@@ -41,6 +57,19 @@ public partial class MainWindowViewModel : ViewModelBase
         {
             sw.WriteLine(json);
             Console.WriteLine("Archivo Guardado");
+        }
+    }
+    
+    [RelayCommand]
+    private void EliminarTrabajador()
+    {
+        if (TrabajadorSeleccionado != null && Trabajadores.Contains(TrabajadorSeleccionado))
+        {
+            Trabajadores.Remove(TrabajadorSeleccionado);
+            Console.WriteLine($"Trabajador {TrabajadorSeleccionado.Nombre} eliminado.");
+
+            // Guardamos automáticamente la lista tras eliminar
+            GuardarPersona();
         }
     }
 

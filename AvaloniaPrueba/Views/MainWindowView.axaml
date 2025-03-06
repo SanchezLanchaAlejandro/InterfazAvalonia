@@ -13,10 +13,9 @@
         <!-- Menú superior -->
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_Archivo">
-                <MenuItem Header="_Nuevo" Command="{CompiledBinding CrearPersonaCommand}"/>
-                <MenuItem Header="_Guardar" Command="{CompiledBinding GuardarPersonaCommand}"/>
+                <MenuItem Header="_Nuevo" Command="{CompiledBinding NuevoCommand}"/>
                 <Separator/>
-                <MenuItem Header="_Salir"/>
+                <MenuItem Header="_Salir" Command="{CompiledBinding SalirCommand}"/>
             </MenuItem>
             <MenuItem Header="_Editar">
                 <MenuItem Header="_Copiar"/>
@@ -56,9 +55,12 @@
             
             <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BorderBrush="Blue" BorderThickness="3" CornerRadius="20" Margin="5,2,5,2">
                 <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" Spacing="4">
-                    <Button Name="BtnGuardar" Content="Guardar Archivo" Background="LimeGreen" Width="150" Margin="5" CornerRadius="20" Command="{CompiledBinding GuardarPersonaCommand}"/>
-                    <Button Name="BtCrearPersona" Content="Crear Persona" Background="{StaticResource RosaOscuro}" Width="130" Margin="5" CornerRadius="20"
-                        Command="{CompiledBinding CrearPersonaCommand}" />
+                    <Button Name="BtnGuardar" Content="Guardar Archivo" Background="LimeGreen" Width="150" Margin="5" CornerRadius="20"
+                            Command="{CompiledBinding GuardarPersonaCommand}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+                    <Button Name="BtnEliminar" Content="Eliminar" Background="Red" Width="130" Margin="5" CornerRadius="20"
+                            Command="{CompiledBinding EliminarTrabajadorCommand}" 
+                            HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 </StackPanel>
             </Border>
             
@@ -83,7 +85,9 @@
                 <Grid.Background>
                     <ImageBrush Source="avares://AvaloniaPrueba/Assets/fondo.jpeg" Stretch="UniformToFill"/>
                 </Grid.Background>
-                <DataGrid ItemsSource="{CompiledBinding Trabajadores}" AutoGenerateColumns="False"
+                <DataGrid ItemsSource="{CompiledBinding Trabajadores}" 
+                          SelectedItem="{CompiledBinding TrabajadorSeleccionado, Mode=TwoWay}" 
+                          AutoGenerateColumns="False"
                           HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="Nombre" Binding="{CompiledBinding Nombre}" Width="*"/>
