@@ -81,7 +81,7 @@
             <!-- Contenedor para el DataGrid con fondo -->
             <Grid Grid.Column="0">
                 <Grid.Background>
-                    <ImageBrush Source="avares://AvaloniaPrueba/Assets/fondo.png" Stretch="UniformToFill"/>
+                    <ImageBrush Source="avares://AvaloniaPrueba/Assets/fondo.jpeg" Stretch="UniformToFill"/>
                 </Grid.Background>
                 <DataGrid ItemsSource="{CompiledBinding Trabajadores}" AutoGenerateColumns="False"
                           HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
@@ -94,22 +94,49 @@
             </Grid>
 
             <!-- Formulario para crear un nuevo trabajador -->
-            <StackPanel Grid.Column="1" Margin="10" Background="LightGray" VerticalAlignment="Stretch">
-                <TextBlock Text="Nuevo Trabajador" FontSize="16" FontWeight="Bold" Margin="0,0,0,10"/>
-                <StackPanel Orientation="Horizontal" Margin="0,5">
-                    <TextBlock Text="Nombre:" Width="80" VerticalAlignment="Center"/>
-                    <TextBox Width="150" Text="{CompiledBinding NuevoTrabajador.Nombre, Mode=TwoWay}"/>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal" Margin="0,5">
-                    <TextBlock Text="Edad:" Width="80" VerticalAlignment="Center"/>
-                    <TextBox Width="150" Text="{CompiledBinding NuevoTrabajador.Edad, Mode=TwoWay}"/>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal" Margin="0,5">
-                    <TextBlock Text="Ficticio:" Width="80" VerticalAlignment="Center"/>
-                    <CheckBox IsChecked="{CompiledBinding NuevoTrabajador.Ficticio, Mode=TwoWay}" VerticalAlignment="Center"/>
-                </StackPanel>
-                <Button Content="Agregar" Command="{CompiledBinding GuardarNuevoTrabajadorCommand}" Margin="0,10,0,0"/>
-            </StackPanel>
+            <Border Grid.Column="1" Margin="10" Background="#4B0082" CornerRadius="15" Padding="20">
+                <Grid VerticalAlignment="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Título del formulario -->
+                    <TextBlock Grid.ColumnSpan="2" Text="Nuevo Trabajador" FontSize="20" FontWeight="Bold" Foreground="White" 
+                               HorizontalAlignment="Center" Margin="0,0,0,15"/>
+
+                    <!-- Campo Nombre -->
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Nombre:" Foreground="White" VerticalAlignment="Center" Margin="0,5"/>
+                    <TextBox Grid.Row="1" Grid.Column="1" Width="200" 
+                             Text="{CompiledBinding NuevoTrabajador.Nombre, Mode=TwoWay}" 
+                             Foreground="White" CaretBrush="White" BorderThickness="2" BorderBrush="White"/>
+
+                    <!-- Campo Edad -->
+                    <TextBlock Grid.Row="2" Grid.Column="0" Text="Edad:" Foreground="White" VerticalAlignment="Center" Margin="0,5"/>
+                    <TextBox Grid.Row="2" Grid.Column="1" Width="200" 
+                             Text="{CompiledBinding NuevoTrabajador.Edad, Mode=TwoWay}" 
+                             Foreground="White" CaretBrush="White" BorderThickness="2" BorderBrush="White"/>
+
+                    <!-- CheckBox Ficticio -->
+                    <TextBlock Grid.Row="3" Grid.Column="0" Text="Ficticio:" Foreground="White" VerticalAlignment="Center" Margin="0,5"/>
+                    <CheckBox Grid.Row="3" Grid.Column="1" IsChecked="{CompiledBinding NuevoTrabajador.Ficticio, Mode=TwoWay}" 
+                              Background="Transparent" Foreground="White" VerticalAlignment="Center" Margin="5,0,0,0"/>
+
+                    <!-- Botón Agregar -->
+                    <Button Grid.Row="4" Grid.ColumnSpan="2" Content="Agregar Trabajador"
+                            Command="{CompiledBinding GuardarNuevoTrabajadorCommand}" 
+                            Background="#9370DB" Foreground="White" FontSize="16"
+                            HorizontalAlignment="Center" Margin="10,15,10,0" Padding="8"
+                            BorderThickness="0" CornerRadius="10"/>
+                </Grid>
+            </Border>
         </Grid>
     </DockPanel>
     

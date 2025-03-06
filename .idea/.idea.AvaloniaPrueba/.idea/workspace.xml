@@ -7,7 +7,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aed55d9-09b1-4ce9-ab99-b28338877467" name="Changes" comment="" />
+    <list default="true" id="9aed55d9-09b1-4ce9-ab99-b28338877467" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaPrueba/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaPrueba/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/Assets/fondo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/Views/MainWindowView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/Views/MainWindowView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/bin/Debug/net9.0/AvaloniaPrueba.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/bin/Debug/net9.0/AvaloniaPrueba.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/bin/Debug/net9.0/AvaloniaPrueba.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/bin/Debug/net9.0/AvaloniaPrueba.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/bin/Debug/net9.0/trabajadores.json" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/bin/Debug/net9.0/trabajadores.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/Avalonia/AvaloniaPrueba.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/Avalonia/AvaloniaPrueba.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/Avalonia/AvaloniaPrueba.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/Avalonia/AvaloniaPrueba.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/Avalonia/resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/ref/AvaloniaPrueba.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/ref/AvaloniaPrueba.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/refint/Avalonia/AvaloniaPrueba.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/refint/Avalonia/AvaloniaPrueba.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/refint/AvaloniaPrueba.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaPrueba/obj/Debug/net9.0/refint/AvaloniaPrueba.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,10 +35,29 @@
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SanchezLanchaAlejandro&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SanchezLanchaAlejandro/InterfazAvalonia.git&quot;,
+    &quot;accountId&quot;: &quot;5b15ab52-deb5-4757-998b-63a4988511a9&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file:///var/folders/c1/4t7b3_1s7pn9n20_y56tcnv40000gn/T/SourceGeneratedDocuments/C62762B26644A8189482EA75/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/AvaloniaPrueba.ViewModels.MainWindowViewModel.g.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2tU8QhlryhzYNdmz1MQpG0CMYr5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,7 +66,9 @@
   &quot;keyToString&quot;: {
     &quot;.NET Project.AvaloniaPrueba.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -83,7 +123,9 @@
       <workItem from="1741253677975" duration="11000" />
       <workItem from="1741255118708" duration="27000" />
       <workItem from="1741255153882" duration="278000" />
-      <workItem from="1741257949993" duration="1691000" />
+      <workItem from="1741257949993" duration="2005000" />
+      <workItem from="1741287724784" duration="1127000" />
+      <workItem from="1741288857612" duration="1150000" />
     </task>
     <servers />
   </component>

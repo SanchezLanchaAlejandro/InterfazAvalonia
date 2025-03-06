@@ -65,3 +65,4 @@
 /Users/alejandrosanchezlancha/RiderProjects/Avalonia/AvaloniaPrueba/AvaloniaPrueba/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.genruntimeconfig.cache
 /Users/alejandrosanchezlancha/RiderProjects/Avalonia/AvaloniaPrueba/AvaloniaPrueba/AvaloniaPrueba/obj/Debug/net9.0/ref/AvaloniaPrueba.dll
 /Users/alejandrosanchezlancha/RiderProjects/Avalonia/AvaloniaPrueba/AvaloniaPrueba/AvaloniaPrueba/bin/Debug/net9.0/CommunityToolkit.Mvvm.dll
+/Users/alejandrosanchezlancha/RiderProjects/Avalonia/AvaloniaPrueba/AvaloniaPrueba/AvaloniaPrueba/obj/Debug/net9.0/AvaloniaPrueba.sourcelink.json
